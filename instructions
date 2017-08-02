@@ -1,0 +1,8 @@
+
+Using node to run sample code in the program
+
+1. Add node (npm) $ npm init
+2. Add lite server npm install lite-server --save-dev
+3. Add start script to run the server (under "test" in the json file)
+     "start": "lite-server"
+4. You can now run npm start > runs on host 3000
