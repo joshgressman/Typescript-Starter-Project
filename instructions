@@ -6,3 +6,7 @@ Using node to run sample code in the program
 3. Add start script to run the server (under "test" in the json file)
      "start": "lite-server"
 4. You can now run npm start > runs on host 3000
+
+To compile the app.ts file to JS RUN
+1. tsc --init (This will create a tsconfig.json file and much like the package.json)
+2. Run tsc to compile the app.ts to js
